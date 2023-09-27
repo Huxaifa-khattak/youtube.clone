@@ -1,0 +1,129 @@
+.navbar{
+    height:59px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+    z-index: 20;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color:rgb(227, 222, 222);
+
+    
+}
+.first-section{
+    
+    
+}
+.middle-section{
+    display: flex;
+
+}
+.last-section{
+    display: flex;
+    width: 182px;
+    flex-direction: row;
+    height: 32px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 24px;
+    margin-right: 24px;
+    
+}
+.hamburger-icon{
+    width: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+    cursor: pointer;
+}
+
+.youtube-icon{
+    width: 90px;
+    height: 20px;
+    cursor: pointer;
+}
+.search{
+    height: 40px;
+    width: 349px;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: inherit;
+    line-height: inherit;
+    height: 40px;
+    flex: 1;
+    min-width: 0;
+    padding-left: 12px;
+    font-size: 16px;
+    border: 1px solid #cccccc;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    box-shadow: inset 0px 1px 2px #eeeeee;
+}
+.search-icon{
+    width: 30px;
+    height: 23px;
+    cursor: pointer;
+    outline: none;
+}
+.search::placeholder{
+    font-size: 16px;
+    color: #8a8686;
+}
+.search-icon:focus{
+    border: 1px solid rgb(129, 129, 245) ;
+    width: 17px;
+}
+.Voice-icon{
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    
+}
+.button1{
+    border: 1px solid #cccccc;
+    height: 40px;
+    width: 64px;
+    border-left: none;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    background-color: #f7f7f7;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-left: -1;
+}
+
+.Voice-icon .voice-logo{
+    width: 24px;
+    cursor: pointer;
+}
+.search-online{
+    width: 24px;
+    cursor: pointer;
+}
+.upload{
+    width: 24px;
+    cursor: pointer;
+}
+.apps-logo{
+    width: 24px;
+    cursor: pointer;
+}
+.Channel-1{
+    width: 32px;
+    border-radius: 16px;
+    margin-right: 8px;
+    cursor: pointer;
+}

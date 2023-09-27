@@ -1,0 +1,59 @@
+
+.thumbnail{
+
+    position: relative;
+    
+}
+.timer{
+    background-color: black;
+    color: white;
+    position: absolute;
+    right: 16px;
+    bottom: 18px;
+    z-index: 0;
+
+}
+.video-pic{
+    width: 400px;
+    margin: 0px 8px 8px 8px;
+}
+.profilelogo{
+    border-radius: 50px;
+    width: 38px;
+    vertical-align: top;
+    margin-right: 3px;
+}
+
+._2ndhalf{
+    margin: 0px;
+    
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    
+}
+ .info .videoinfo{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    
+}
+.info .videoauthor ,.videostats{
+    color: #606060;
+    font-size: 12px;
+}
+.videoauthor{
+    margin-bottom: 4px;
+}
+.Grid{
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 10px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+}
